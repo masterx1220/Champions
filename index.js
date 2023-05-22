@@ -67,7 +67,7 @@ function addToEndorsements(shoutValue) {
     let publisihFrom = shoutValue.fromValue
     let publishTo = shoutValue.toValue
     
-    console.log(publishShout, publisihFrom, publishTo)
+//     console.log(publishShout, publisihFrom, publishTo)
     newToValue.textContent = `To: ${publishTo}`
     newShoutValue.textContent = publishShout
     newFromValue.textContent = `From: ${publisihFrom}`
