@@ -58,7 +58,7 @@ onValue (shoutOutInDB, function(snapshot){
 
 //functions to add inputs to the HTML
 function addToEndorsements(shoutValue) {
-    let newToValue = document.createElement("span")
+    let newToValue = document.createElement("p")
     let newShoutValue = document.createElement("li")
     let newFromValue = document.createElement("p")
 
